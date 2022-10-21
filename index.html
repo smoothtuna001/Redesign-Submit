@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Libre+Bodoni:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href ="style.css">
+    <link rel="icon" href="images/BOTSlogo-02.svg" type="image/x-icon">
+
+    <title> Responsive Redesign </title>
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div>
+
+        </div>
+
+        <div class="nav-row" style="width: 60%;">
+            <a href="#overview"><h3>Overview</h3></a>
+            <a href="#lofi"><h3>Lo-Fi Protoyping</h3></a>
+            <a href="#style-guide"><h3>Style Guide</h3></a>
+            <a href="#hifi"><h3>Hi-Fi Protoyping</h3></a>
+            <a href="#redesign"><h3>Redesign</h3></a>
+
+        </div>
+    </div>
+
+    <div class="background-image">
+
+    </div>
+
+    <div style="background-color: #F8F3EF; ">
+        <div style="width: 100%;">
+            <div style="width: 65%;">
+            
+            <h1 id="overview">Responsive Redesign</h1>
+            <p>The goal of this assignment is for you to practice the workflow of redesigning a simple website. 
+            You should take away the skills necessary to analyze and identify flaws in an existing interface, 
+            create low-fidelity and high-fidelity prototypes for various screen sizes, and build a responsive website based on those prototypes. </p>
+
+            <p>I chose the <a href="https://www.booksq.com/">Books on the Square website</a> because I love visiting this store, but I don't think that the current site
+            shows off the positive traits that the bookstore has to offer. </p>
+
+            </div>
+
+            <img src="images/HomePage_OldSite.png" alt="old site" style="height: 500px">
+
+            <br>
+            <br>
+
+            <div style="width: 65%;">
+
+            <h1>Old Site - Usability Issues</h1>
+            <h3>way too much information present</h3>
+            <p>There is a toon of information that BOTS is trying to share, but the 
+            way that the website uses hierarchy makes it hard to access any particular task. All of 
+            the possible services that the website has to offer are in the menu bar</p>
+
+            </div>
+
+            <img src="images/Menu_OldSite.png" alt="menu bar old site" style="width: 100%;">
+
+            <div style="width: 65%;">
+
+            <h3>Bad Color Scheme, Lack of Contrast</h3>
+            <p>The current Books on the Square site uses too many different colors, and because of
+                the grey background, many of the colors don't show with enough contrast and make 
+                it hard to navigate the website. Additionally, some of the links are missing images 
+                and many images are missing their alt text. This is a big problem when it comes to making
+                websites accessible.
+            </p>
+
+            </div>
+
+            <img src="images/LowContrast_OldSite.png" alt="menu bar old site" style="width: 100%">
+
+            <div style="width: 65%;">
+
+            <h3>Hard to Search for Books</h3>
+            <p>As a bookstore, I think that BOTS prioritizes its events and newsletter features (among others)
+                over its book searching feature. In the website redesign, I decided to make it easier to 
+                look through books and complete the online ordering process that exists but is hard to locate
+                on the old website. I put the website through the webAIM WAVE software, which revealed a ton of different
+                problems with the site related to contrast, redundant links, alt text, and general placement of divs.
+            </p>
+
+            </div>
+
+            <img src="images/Problems_OldSite.png" alt="menu bar old site" style="height: 300px">
+
+            <br>
+            <br>
+
+            <h1 id="lofi">Lo-Fi Prototyping</h1>
+            <h3>Scroll to see more</h3>
+            <br>
+
+            <div class="lofi-row">
+                <img src="images/desktoplofi.PNG" alt="desktop lofi" style="height: 600px">
+                <img src="images/tabletlofi.PNG" alt="tablet lofi" style="height: 600px;">
+                <img src="images/mobilelofi.PNG" alt="mobile lofi" style="height: 600px;">
+            </div>
+
+            <h1 id="style-guide">Style Guide</h1>
+            <img src="images/styleguide/Header.png" alt="styleguide header" style="width: 100%;">
+            <img src="images/styleguide/Color Palette.png" alt="Color Pallette" style="width: 100%;">
+            <img src="images/styleguide/Iconography.png" alt="iconography" style="width: 100%;">
+            <img src="images/styleguide/logo (2).png" alt="logo" style="width: 100%;">
+            <img src="images/styleguide/Typography.png" alt="Typography" style="width: 100%;">
+            <img src="images/styleguide/Components.png" alt="components" style="width: 100%;">
+            <img src="images/styleguide/Pattern.png" alt="pattern" style="width: 100%;">
+
+            <br>
+            <br>
+            <h1>Hi-Fi Prototyping</h1>
+            <h3>Scroll to see more</h3>
+
+            <br>
+
+
+
+            <div class="hifi-row">
+                <img src="images/Desktop - 1.png" alt="desktop lofi" style=" padding: 20px;">
+                <img src="images/iPad Pro 11_ - 1.png" alt="tablet lofi" style="padding: 20px;">
+                <img src="images/iPhone 14 - 1.png" alt="mobile lofi" style="padding: 20px;">
+            </div>
+
+            <h1>Books on the Square Redesign</h1>
+            <div style="width: 65%;">
+                <p><a href="https://smoothtuna001.github.io/Responsive-Redesign/">Here is my attempt at redesigning the BOTS home page.</a> I worked to make the page more
+                    responsive, especially in the nav bar. I did this mainly using media queries, and created
+                    html components to enable horizontal scrolling. The page has buttons for alternate pages, but I 
+                    didn't make any since the redesign is a proof of concept.
+                </p>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+
+    </div>
+
+    
+
+
+</body>
+</html>
